@@ -82,7 +82,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className = '' }) => {
           Skip the store. Forget e-cards lost in the shuffle
         </h3>
         
-        <p className="font-satoshi text-3xl font-medium mb-6 leading-tight">
+        <p className="font-satoshi text-4xl font-medium mb-6 leading-tight" style={{ fontFamily: 'Patrick Hand' }}>
           {/* <span className="text-cyan-500">Save </span>
           <span className="text-slate-800">Time and Money,</span>
           <span className="text-pink-500"> Access </span>
@@ -92,7 +92,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className = '' }) => {
           <span className="text-slate-800">
             With Meeps you can create and send a greeting in seconds—
           </span>
-          <span className="text-cyan-500">
+          <br />
+          <span className="text-cyan-500" style={{ marginTop: '20px', display: 'block' }}>
             Instant, shareable, and always easy to revisit
           </span>
         </p>
@@ -103,9 +104,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className = '' }) => {
         </p> */}
 
         
-        <p className="text-xl text-slate-800 mb-8 max-w-lg mx-auto leading-relaxed">
+        <p className="text-xl text-slate-800 mb-8 max-w-lg mx-auto leading-relaxed" style={{ fontFamily: 'Patrick Hand' }}>
           {/* Keepsakes you and your friends, family - anyone can revisit anytime! */}
-          A card that’s never forgotten and tokenizable as a keepsake
+          A card that’s never forgotten
         </p>
         
             <div className="flex justify-center">
