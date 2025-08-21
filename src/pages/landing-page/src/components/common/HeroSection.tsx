@@ -69,29 +69,43 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className = '' }) => {
       </div>
       
       <div className="relative max-w-4xl mx-auto text-center ">
-        <h1 className="text-5xl font-light text-slate-800 mb-2 leading-tight " style={{ fontFamily: 'Patrick Hand' }}>
-          Meeps, New Greeting Cards Onchain
+        <h1 className="text-4xl font-light text-slate-800 mb-2 leading-tight " style={{ fontFamily: 'Patrick Hand' }}>
+          {/* Meeps, New Greeting Cards Onchain */}
+          Meeps: More Flexible Than Any Card You’ve Sent Before
         </h1>
         <h2 className="font-satoshi text-4xl font-normal mb-1  mx-auto leading-relaxed text-pink-500 tracking-normal" style={{ fontFamily: 'Patrick Hand' }}>
-          More meaningful than a message 
+          {/* More meaningful than a message  */}
+          Meaningful and lasting
         </h2>
         <h3 className=" font-satoshi text-4xl  font-normal text-slate-800 mb-6 leading-tight"style={{ fontFamily: 'Patrick Hand' }}  >
-          More lasting than a like 
+          {/* More lasting than a like  */}
+          Skip the store. Forget e-cards lost in the shuffle
         </h3>
         
-        <p className="font-satoshi text-4xl font-medium mb-6 leading-tight">
-          <span className="text-cyan-500">Save </span>
+        <p className="font-satoshi text-3xl font-medium mb-6 leading-tight">
+          {/* <span className="text-cyan-500">Save </span>
           <span className="text-slate-800">Time and Money,</span>
           <span className="text-pink-500"> Access </span>
           <span className="text-slate-800">Easily, </span>
           <span className="text-blue-600">Seal </span>
-          <span className="text-slate-800">Your Greetings Onchain.</span>
+          <span className="text-slate-800">Your Greetings Onchain.</span> */}
+          <span className="text-slate-800">
+            With Meeps you can create and send a greeting in seconds—
+          </span>
+          <span className="text-cyan-500">
+            Instant, shareable, and always easy to revisit
+          </span>
         </p>
 
+        {/* <p className="text-xl text-slate-800 mb-8 max-w-lg mx-auto leading-relaxed">
+          With Meeps you can create and send a greeting in seconds—
+          Instant, shareable, and always easy to revisit
+        </p> */}
 
         
         <p className="text-xl text-slate-800 mb-8 max-w-lg mx-auto leading-relaxed">
-          Keepsakes you and your friends, family - anyone can revisit anytime!
+          {/* Keepsakes you and your friends, family - anyone can revisit anytime! */}
+          A card that’s never forgotten and tokenizable as a keepsake
         </p>
         
             <div className="flex justify-center">
