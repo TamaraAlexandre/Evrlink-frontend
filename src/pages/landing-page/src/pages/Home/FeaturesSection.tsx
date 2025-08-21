@@ -14,7 +14,7 @@ const FeaturesSection: React.FC = () => {
               <span className="text-xl" style={{ fontFamily: 'Patrick Hand' }}>
                 Meeps, 
               </span>
-              <span>a better greeting card. Save time and money. Never lost in cluttered emails, No envelopes. Just Onchain Magic</span>
+              <span> a better greeting card. Save time and money. Never lost in cluttered emails, No envelopes. Just Onchain Magic</span>
             </div>
           </div>
           <div className="relative w-80 mx-auto">
