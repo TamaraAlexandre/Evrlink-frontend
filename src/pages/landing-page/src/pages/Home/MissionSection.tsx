@@ -109,9 +109,9 @@ const MissionSection: React.FC = () => {
       <div className="max-w-7xl mx-auto bg-[#00B2C71A] rounded-xl p-6 lg:p-12 text-center relative w-full">
         <h1 className="text-xl lg:text-2xl font-semibold mb-4">Our Mission</h1>
         <p className="text-gray-700 text-base lg:text-lg max-w-2xl mx-auto mb-8">
-          Our mission is to harness on-chain technology to turn cherished moments into timeless, enduring stories. 
-          We securely capture and preserve your most meaningful experiences on-chain, ensuring they live forever—
-          indestructible, accessible, and beautifully chronicled.
+        Our mission is to create lasting human connection through innovative and meaningful greeting cards — giving people a better way to capture life’s moments, communicate what matters, and strengthen relationships. <br />
+                <br />
+                Because some words deserve to last.
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
